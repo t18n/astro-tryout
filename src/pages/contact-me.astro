@@ -1,0 +1,18 @@
+---
+import Layout from '../layouts/BlogPost.astro';
+---
+
+<Layout
+	title="Contact me"
+	description="Lorem ipsum dolor sit amet"
+	pubDate={new Date('August 08 2021')}
+	heroImage="/blog-placeholder-about.jpg"
+>
+	<h1>Contact me</h1>
+  <form>
+    <input type="text" placeholder="Name" />
+    <input type="email" placeholder="Email" />
+    <textarea placeholder="Message"></textarea>
+    <button type="submit">Send</button>
+  </form>
+</Layout>
